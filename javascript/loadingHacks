@@ -1,0 +1,4 @@
+# Load scripts after the page is loaded with defer attribut
+# moz info: after the document has been parsed, but before firing DOMContentLoaded 
+# @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+<script defer src="externalScript.js" />
